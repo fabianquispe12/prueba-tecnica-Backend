@@ -34,7 +34,6 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de APIs R
 ### Parte 5: Manejo de Variables de Entorno y Secretos
 - Usa **dotenv** para la gestión de variables de entorno.
 - No incluyas secretos en el código fuente.
-- Usa herramientas como **AWS Secrets Manager** o **Vault** (opcional).
 
 ### Parte 6: Buenas Prácticas
 - Aplica principios SOLID.
@@ -46,7 +45,7 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de APIs R
 - **Instrucciones:** Agrega un `README.md` con instrucciones para ejecutar la API.
 - **Documentación Swagger:** Debe estar accesible en `/api/docs`.
 
-**Tiempo estimado:** 2 a 3 horas.
+**Tiempo estimado:** 1 a 2 horas.
 
 ## Criterios de Evaluación
 - **Correcta implementación de la API.**
