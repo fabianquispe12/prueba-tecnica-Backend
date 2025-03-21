@@ -6,9 +6,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: ${ENV_USER}
-      POSTGRES_PASSWORD: ${ENV_PASSWORD}
-      POSTGRES_DB: ${ENV_DATABASE}
+      POSTGRES_USER: JhonDoe
+      POSTGRES_PASSWORD: SecretKey
+      POSTGRES_DB: api_test
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
