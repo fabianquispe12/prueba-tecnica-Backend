@@ -6,7 +6,8 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de APIs R
 ## Requisitos
 
 ### Parte 1: Desarrollo de API REST
-- Crea una API REST en **Javascript, Python, PHP o Typescript**.
+-Levantar el docker-compose para tener una base de datos.
+- Crea una API REST en **Node.js con NestJS** (puedes usar otro framework si lo prefieres).
 - Define un **CRUD** para manejar una entidad llamada `Usuario` con los siguientes campos:
   - `id` (UUID, autogenerado)
   - `nombre` (string, requerido)
@@ -15,6 +16,7 @@ El objetivo de esta prueba es evaluar tus habilidades en el desarrollo de APIs R
   - `clave` (string, requerido)
   - `creadoEn` (timestamp, autogenerado)
 - Documenta la API con **Swagger**.
+  
 
 ### Parte 2: Autenticación y Seguridad de Endpoints
 - Implementa autenticación con **JWT**.
